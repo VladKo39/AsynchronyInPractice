@@ -1,6 +1,5 @@
 import asyncio
 import time
-from time import sleep
 
 timeaut=12
 
@@ -11,8 +10,6 @@ async def start_strongman(name, power):
     своей силе не ожидая очередности.
     :param name: Имя участника
     :param power: Мощность в кВт
-    1.Старт- Участники начинают соревнования
-    :return:
     '''
     print(f'Силач {name} начал соревнования.')
     start=time.time()
